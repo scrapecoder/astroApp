@@ -11,7 +11,7 @@
   // They will be passed down to the ViewController used by React Native.
   self.initialProps = @{};
   
-  NSArray *familyNames = [[NSArray alloc] initWithArray:[UIFont familyNames]];
+  NSArray *familyNames = [[NSArray  alloc] initWithArray:[UIFont familyNames]];
     
   for (NSString *family in familyNames) {
     NSLog(@"Family name: %@", family);

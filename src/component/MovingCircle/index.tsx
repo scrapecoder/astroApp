@@ -63,7 +63,7 @@ const MovingCircle = ({position,yCord,progress}:MovingCircleProps) => {
         />
       </Circle>
 
-      <BackdropFilter filter={<Blur blur={120} mode={'clamp'} />} />
+      <BackdropFilter  filter={<Blur blur={120}  />} />
     </>
   );
 };
